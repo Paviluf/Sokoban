@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sokoban" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sokoban" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sokoban" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Fenetre.cpp" />
+		<Unit filename="Fenetre.h" />
+		<Unit filename="Niveaux.cpp" />
+		<Unit filename="Niveaux.h" />
+		<Unit filename="arial.ttf" />
+		<Unit filename="bravo.png.h" />
+		<Unit filename="caisse.ico" />
+		<Unit filename="caisse.png.h" />
+		<Unit filename="caisse_ok.png.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="constantes.h" />
+		<Unit filename="gagne.png.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mario_bas.png.h" />
+		<Unit filename="mario_droite.png.h" />
+		<Unit filename="mario_gauche.png.h" />
+		<Unit filename="mario_haut.png.h" />
+		<Unit filename="menu.png.h" />
+		<Unit filename="mur.png.h" />
+		<Unit filename="objectif.png.h" />
+		<Unit filename="regles.png.h" />
+		<Unit filename="regles_editeur.png.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
